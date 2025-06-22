@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px ;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.box{
+font-weight: bolder;
+padding: 15px;
+background-color: violet;
+gap: 10px;
+font-family: sans-serif;
+border: 1px solid white;
+text-align: center;
+}
+h1{
+text-align: center;
+}
+.box1{
+grid-column: 1/5;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
