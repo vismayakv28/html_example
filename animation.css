@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+
+}
+div{
+    background-color: white;
+    margin: 25px;
+    width: 200px;
+    height: 300px;
+    animation: expand 2s linear 3s infinite ;
+    transition: background-color 1s ease-in;
+}
+div:hover{
+    animation-play-state: paused; 
+    background-color: aquamarine;
+  
+
+}
+@keyframes expand{
+    0%{
+        width: 200px;
+      
+       
+    }
+    50%{
+        width: 500px;
+      
+    }
+    100%{
+        width:800px ;
+        
+
+    }
+}
+
