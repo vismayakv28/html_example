@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(2, 2, 50);
+    margin: 50px;
+    font-family: sans-serif;
+}
+p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 20;
+    font-size: 42px;
+}
+h6{
+    color:white;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+h5{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+h4{
+    color: rgb(28, 28, 91);
+    font-family: sans-serif;
+    font-size: smaller;
+}
+h2{
+    color: white;
+}
+.img{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: 5px white;
+}
+.dash{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bash{
+    background-color: rgb(27, 27, 160);
+    width: 200px;
+    height: 250px;
+    padding: 25px;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: -20px;
+
+}
+
+.eee{
+     background-color: rgb(1, 1, 36);
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+
+}
+
+.row2{
+    display: flex;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    gap: 45px;
+
+}
+.row1{
+    display: flex;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    gap: 45px;
+}
+.work{
+    background-color: rgb(1, 1, 42);
+    padding: 25px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.play{
+    background-color: rgb(1, 1, 42);
+    padding: 25px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.study{
+    background-color: rgb(1, 1, 42);
+    padding: 25px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.self{
+    background-color: rgb(1, 1, 42);
+    padding: 25px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.social{
+    background-color: rgb(1, 1, 42);
+    padding: 25px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.exercise{
+    background-color: rgb(1, 1, 42);
+    padding: 25px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.self{
+    background-color: rgb(1, 1, 42);
+    padding: 25px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.vi{
+    display: flex;
+    gap: 100px;
+}
+.r{
+    width: 250px;
+    height:60px ;
+    border-radius:15px 15px 0 ;
+    position: relative;
+    margin-top:40px ;
+    margin-bottom: -20px;
+}
+
+
