@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="gridlayout.css">
+</head>
+<body>
+    <h1>1.auto layout columns(equal width)</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col auto-box">column1</div>
+             <div class="col auto-box">column1</div>
+              <div class="col auto-box">column1</div>
+
+
+
+        </div>
+    
+
+    </div>
+    <h2>2.equal width + one fixed width</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col auto-box">equal</div>
+             <div class="col auto fixed-box">fixed width</div>
+              <div class="col auto-box">equal</div>
+            
+
+        </div>
+
+    </div>
+    <h2>3.variable width content</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col- auto variable-box"> short text</div>
+
+        </div>
+
+    </div>
+    <h2>4.responsive breakpoints</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-12-col-sm-6  col-md col-lg-3 responsive-box">responsive 1</div>
+            <div class="col-12-col-sm-6  col-md col-lg-3 responsive-box"> responsive 2</div>
+
+
+        </div>
+
+    </div>
+    <h2>5.stack to horizontal</h2>
+    <div class="container">
+        <div class="row">
+             <div v class="col-12-colmd-8 stacked-box"> main </div>
+             <div v class="col-12-colmd-8 stacked-box"> main </div>
+
+        </div>
+
+    </div>
+    <h2>6. mix and match rows and columns </h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-6-col-sm-4 mix-box">A</div>
+             <div class="col-6-col-sm-4 mix-box">B</div>
+              <div class="col-12-col-sm-4 mix-box">C</div>
+
+
+
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

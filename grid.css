@@ -1,0 +1,53 @@
+.container{
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius:20px ;
+    gap: 10px;
+
+}
+.col-6{
+    background-color: sandybrown;
+    padding: 20px;
+    border-radius:20px ;
+    gap: 10px;
+    text-align: center;
+
+
+    
+}
+.col-sm-6{
+     background-color:greenyellow;
+    padding: 20px;
+    border-radius:20px ;
+    gap: 10px;
+    text-align: center;
+
+    
+
+}
+.nested-inner {
+    background-color: hotpink;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    gap: 10px;
+}
+
+.nested-outer {
+    background-color:lavender;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    gap:10px;
+
+}
+
+.align-box{
+     background-color:blue;
+    padding: 20px;
+    border-radius: 45px;
+    text-align: center;
+    gap: 10px;
+    color: white;
+
+}

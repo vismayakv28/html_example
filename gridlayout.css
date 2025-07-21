@@ -1,0 +1,62 @@
+body{
+    background-color: silver;
+    padding: 20px;
+
+}
+h2{
+    margin: 40px;
+    margin-bottom: 20px;
+
+}
+.auto-box{
+    background-color: rgb(122, 122, 236);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+
+}
+.fixed-box{
+     background-color: rgb(211, 181, 130);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+
+
+}
+.variable-box{
+     background-color: rgb(123, 203, 212);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+
+}
+.responsive-box{
+  background-color: rgb(223, 118, 160);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+
+}
+.stacked-box{
+    background-color: rgb(141, 102, 199);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+
+   
+
+}
+.mix-box{
+    background-color: rgb(104, 204, 102);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+
+
+}
