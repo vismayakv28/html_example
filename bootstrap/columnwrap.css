@@ -1,0 +1,12 @@
+.box{
+    background-color: rgb(155, 103, 204);
+    padding: 20px;
+    border: 2px dashed black;
+    margin-bottom: 10px;
+ 
+
+}
+.box1{
+    border: 1px solid black;
+
+}
