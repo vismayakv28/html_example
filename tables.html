@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   
+</head>
+<body>
+    <div class="container">
+        <h3>1.TABLE</h3>
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="container">
+    <h3>2.VARIENT</h3>
+    <table class="table">
+        <thead>
+            <tr class="table-dark">
+                <td>STUDENTS</td>
+                <td>MARKS</td>
+                <td>STATUS</td>
+            </tr>
+            </thead>
+            <tbody>
+
+    
+    <tr class="table-warning">
+        <td>1</td>
+        <td>arun</td>
+        <td>just passed</td>
+    </tr>
+    <tr class="table-success">
+        <td>2</td>
+        <td>avani</td>
+        <td>Retest</td>
+    </tr>
+
+    <tr class="table-danger">
+        <td>3</td>
+        <td>aswathi</td>
+        <td>great</td>
+
+    </tr>
+ <tr class="table-secondary">
+        <td>4</td>
+        <td>vishnu</td>
+        <td>great</td>
+
+    </tr>
+
+
+</tbody>
+</table>
+</div>
+
+
+
+<div class="container">
+    <h3>3.STRIPPED ROWS</h3>
+   <table class="table table-striped">
+    <thead>
+        <tbody>
+    <tr>
+        <td>NAME</td>
+        <td>MATHS</td>
+        <td>ENGLISH</td>
+    </tr>
+    <tr>
+        <td>aswin</td>
+        <td>50</td>
+        <td>80</td>
+    </tr>
+
+     <tr>
+        <td>arun</td>
+        <td>50</td>
+        <td>80</td>
+    </tr>
+
+
+     <tr>
+        <td>aswathi</td>
+        <td>50</td>
+        <td>80</td>
+    </tr>
+
+     <tr>
+        <td>kavya</td>
+        <td>50</td>
+        <td>80</td>
+    </tr>
+
+  
+</tbody>
+</thead>
+    </table>
+    
+
+</div>
+
+
+<div class="container">
+<h3>4.HOVERABLE TABLE</h3>
+<table class="table table-hover">
+    <thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>html</td>
+            </tr>
+
+           <tr>
+                <td>2</td>
+                <td>css</td>
+            </tr>
+
+
+
+             <tr>
+                <td>3</td>
+                <td>java</td>
+            </tr>
+
+
+
+
+             <tr>
+                <td>4</td>
+                <td>react</td>
+            </tr>
+        </tbody>
+
+    </thead>
+
+</table>
+
+
+
+<h3>5.ACTIVE TABLE</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <td>ITEM</td>
+            <td>DETAILS</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-active">
+            <td>highlighted row</td>
+            <td>this entire row is active</td>
+        </tr>
+
+         <tr>
+            <td>normal row</td>
+            <td>this entire row is normal</td>
+        </tr>
+        <tr>
+            <td class="table-active">highlighted cell</td>
+            <td >only the first cell the active</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h3 class="mb-3">6.BORDER TABLE</h3>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>NAME</th>
+            <th>ROLE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Arun</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Aswathi</td>
+            <td>Tester</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Arya</td>
+            <td>Depolyment</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Alice</td>
+            <td>Manager</td>
+        </tr>
+    </tbody>
+    
+</table>
+
+<table class="table table-bordered border-primary">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>NAME</th>
+            <th>ROLE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Arun</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Aswathi</td>
+            <td>Tester</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Arya</td>
+            <td>Depolyment</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Alice</td>
+            <td>Manager</td>
+        </tr>
+    </tbody>
+    
+</table>
+
+
+<table class="table table-bordered table-primary">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>NAME</th>
+            <th>ROLE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Arun</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Aswathi</td>
+            <td>Tester</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Arya</td>
+            <td>Depolyment</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Alice</td>
+            <td>Manager</td>
+        </tr>
+    </tbody>
+    
+</table>
+
+
+<h3>7.BORDERLESS TABLE</h3>
+<table class="table table-borderless table-danger">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>NAME</th>
+            <th>ROLE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Arun</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Aswathi</td>
+            <td>Tester</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Arya</td>
+            <td>Depolyment</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Alice</td>
+            <td>Manager</td>
+        </tr>
+    </tbody>
+    
+</table>
+
+
+
+<h3>8.SMALL TABLE</h3>
+<table class="table table-sm table-secondary border-black">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>NAME</th>
+            <th>ROLE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Arun</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Aswathi</td>
+            <td>Tester</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Arya</td>
+            <td>Depolyment</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Alice</td>
+            <td>Manager</td>
+        </tr>
+    </tbody>
+    
+</table>
+
+
+
+<h3>8.TABLE GROUP DIVIDER</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>NAME</th>
+            <th>ROLE</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+        <tr>
+            <td>1</td>
+            <td>Arun</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Aswathi</td>
+            <td>Tester</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Arya</td>
+            <td>Depolyment</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Alice</td>
+            <td>Manager</td>
+        </tr>
+    </tbody>
+    
+</table>
+
+
+
+<h3>9.TABLE ALIGNMENT </h3>
+<table class="table ">
+    <thead>
+        <tr>
+            <th>TOP</th>
+            <th>BOTTOM</th>
+            <th>CENTER</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="align-bottom">
+            <td class="align-top">top aligned text</td>
+            <td class="align-middle">middle aligned</td>
+            <td class="align-bottom"> bottom aligned</td>
+        </tr>
+
+    </tbody>
+
+</table>
+
+
+
+<h3>10.NESTING</h3>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>DETAILS</th>
+        </tr>
+    </thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>Arya</td>
+        <td>click to expand</td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <table class="table table-sm table-borderless">
+                <thead>
+                    <tr>
+                        <th>SKILL</th>
+                        <th>EXPERIENCE</th>
+                        <th>LEVEL</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>html</td>
+                            <td>3 years</td>
+                            <td>Advanced</td>
+                        </tr>
+
+                         <tr>
+                            <td>css</td>
+                            <td>2 years</td>
+                            <td>intermediate</td>
+                        </tr>
+
+                         <tr>
+                            <td>javascript</td>
+                            <td>1 years</td>
+                            <td>beginner</td>
+                        </tr>
+
+                    </tbody>
+
+                </thead>
+            </table>
+        </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>arun</td>
+      <td>click to expand</td>
+    </tr>
+</tbody>
+</table>
+
+<h3>11.TABLE HEAD</h3>
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            
+            
+            
+        </tr>
+
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Anil</td>
+            <td>p</td>
+        </tr>
+
+         <tr>
+            <td>2</td>
+            <td>Anu</td>
+            <td>p</td>
+        </tr>
+
+ <tr>
+            <td>1</td>
+            <td>Aswathi</td>
+            <td>p</td>
+        </tr>
+         <tr>
+            <td>4</td>
+            <td>arya</td>
+            <td>mk</td>
+        </tr>
+    </tbody>
+
+</table>
+
+
+
+<h3>12. TABLE FOOTER </h3>
+<table class="table-dark">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            
+            
+            
+        </tr>
+
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Anil</td>
+            <td>p</td>
+        </tr>
+
+         <tr>
+            <td>2</td>
+            <td>Anu</td>
+            <td>p</td>
+        </tr>
+
+ <tr>
+            <td>1</td>
+            <td>Aswathi</td>
+            <td>p</td>
+        </tr>
+         <tr>
+            <td>4</td>
+            <td>arya</td>
+            <td>mk</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+
+        
+        <td colspan="4">total </td>
+        <td>1234</td>
+       
+           </tr>
+    </tfoot>
+
+</table>
+
+
+
+<h3>12. TABLE CAPTION </h3>
+<table class="table-dark">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            
+            
+            
+        </tr>
+
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Anil</td>
+            <td>p</td>
+        </tr>
+
+         <tr>
+            <td>2</td>
+            <td>Anu</td>
+            <td>p</td>
+        </tr>
+
+ <tr>
+            <td>1</td>
+            <td>Aswathi</td>
+            <td>p</td>
+        </tr>
+         <tr>
+            <td>4</td>
+            <td>arya</td>
+            <td>mk</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+
+        
+        <td colspan="4">total </td>
+        <td>1234</td>
+       
+           </tr>
+    </tfoot>
+
+</table>
+
+
+<h3>12. TABLE TABLE CAPTION TOP </h3>
+<table class="table table caption-top">
+    <caption>list of students</caption>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            
+            
+            
+        </tr>
+
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Anil</td>
+            <td>p</td>
+        </tr>
+
+         <tr>
+            <td>2</td>
+            <td>Anu</td>
+            <td>p</td>
+        </tr>
+
+ <tr>
+            <td>1</td>
+            <td>Aswathi</td>
+            <td>p</td>
+        </tr>
+         <tr>
+            <td>4</td>
+            <td>arya</td>
+            <td>mk</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+
+        
+        <td colspan="4">total </td>
+        <td>1234</td>
+       
+           </tr>
+    </tfoot>
+
+</table>
+
+<h3>12. TABLE RESPONSIVE </h3>
+<div class="table table-responsive md">
+<table class="table">
+    <caption>list of students</caption>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            
+            
+            
+        </tr>
+
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Anil</td>
+            <td>p</td>
+        </tr>
+
+         <tr>
+            <td>2</td>
+            <td>Anu</td>
+            <td>p</td>
+        </tr>
+
+ <tr>
+            <td>1</td>
+            <td>Aswathi</td>
+            <td>p</td>
+        </tr>
+         <tr>
+            <td>4</td>
+            <td>arya</td>
+            <td>mk</td>
+        </tr>
+    </tbody>
+  
+      
+
+        
+    
+      
+       
+        
+</table>
+</div>
+
+
+<h3></h3>
+<h3>16.BREAK POINTS</h3>
+<div class="table table-responsive-xxl">
+<table class="table">
+    <caption>list of students</caption>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            
+            
+            
+        </tr>
+
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Anil</td>
+            <td>p</td>
+        </tr>
+
+         <tr>
+            <td>2</td>
+            <td>Anu</td>
+            <td>p</td>
+        </tr>
+
+ <tr>
+            <td>1</td>
+            <td>Aswathi</td>
+            <td>p</td>
+        </tr>
+         <tr>
+            <td>4</td>
+            <td>arya</td>
+            <td>mk</td>
+        </tr>
+    </tbody>
+  
+      
+
+        
+    
+      
+       
+        
+</table>
+</div>
+
+<h3>SMALL</h3>
+<div class="table table-responsive-sm">
+<table class="table">
+    <caption>list of students</caption>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            
+            
+            
+        </tr>
+
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Anil</td>
+            <td>p</td>
+        </tr>
+
+         <tr>
+            <td>2</td>
+            <td>Anu</td>
+            <td>p</td>
+        </tr>
+
+ <tr>
+            <td>1</td>
+            <td>Aswathi</td>
+            <td>p</td>
+        </tr>
+         <tr>
+            <td>4</td>
+            <td>arya</td>
+            <td>mk</td>
+        </tr>
+    </tbody>
+  
+      
+
+        
+    
+      
+       
+        
+</table>
+</div>
+
+<h3>LARGE</h3>
+<div class="table table-responsive-lg ">
+<table class="table">
+    <caption>list of students</caption>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            
+            
+            
+        </tr>
+
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Anil</td>
+            <td>p</td>
+        </tr>
+
+         <tr>
+            <td>2</td>
+            <td>Anu</td>
+            <td>p</td>
+        </tr>
+
+ <tr>
+            <td>1</td>
+            <td>Aswathi</td>
+            <td>p</td>
+        </tr>
+         <tr>
+            <td>4</td>
+            <td>arya</td>
+            <td>mk</td>
+        </tr>
+    </tbody>
+  
+      
+
+        
+    
+      
+       
+        
+</table>
+</div>
+
+
+<h3>EXTRA LARGE</h3>
+<div class="table table-responsive-xl ">
+<table class="table">
+    <caption>list of students</caption>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            
+            
+            
+        </tr>
+
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Anil</td>
+            <td>p</td>
+        </tr>
+
+         <tr>
+            <td>2</td>
+            <td>Anu</td>
+            <td>p</td>
+        </tr>
+
+ <tr>
+            <td>1</td>
+            <td>Aswathi</td>
+            <td>p</td>
+        </tr>
+         <tr>
+            <td>4</td>
+            <td>arya</td>
+            <td>mk</td>
+        </tr>
+    </tbody>
+  
+      
+
+        
+    
+      
+       
+        
+</table>
+</div>
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>

@@ -1,0 +1,325 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+ color: rgb(43, 40, 40);
+  font-weight: 500;
+}
+
+.login-btn {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 1rem;
+}
+
+.primary-btn {
+  background: #c29611;
+  width: 150px;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero-buttons p {
+  font-size: 0.95rem;
+  color: black;
+}
+
+.hero-img img {
+  border-radius: 10px;
+}
+  
+
+
+.yellow-btn {
+  background: #ffc107;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+ 
+}
+
+.hero-img img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 3rem;
+  background: #d2cdcd;
+  color: #000;
+}
+
+.feature {
+  flex: 1;
+}
+
+.feature h3 {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+}
+
+.feature .dot-img {
+  color: #f8c52c;
+  font-size: 1.5rem;
+ margin-top: 10px;
+ width: 20px;
+ height: 20px;
+ gap: 10px;
+
+}
+
+
+
+
+.program {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background: #000;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.program img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.program-text {
+  max-width: 500px;
+}
+
+.program-text ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ .testimonials{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.testimonials .card {
+  background:rgb(227, 220, 220);
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+.c{
+  
+  width: 100px;   
+  height: 100px;  
+  border-radius: 50%;
+  object-fit: cover; 
+
+}
+.i{
+  
+  width: 100px;   
+  height: 100px;  
+  border-radius: 50%;
+  object-fit: cover; 
+
+}
+.v{
+  
+  width: 100px;   
+  height: 100px;  
+  border-radius: 50%;
+  object-fit: cover; 
+}
+h4{
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+.yellow-section {
+ 
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.yellow-section img {
+  max-width: 1600px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+
+ 
+ 
+}
+
+.image-banner {
+  width: 100%;
+ 
+}
+.image-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+footer {
+  background: #222;
+  color: #fff;
+  padding: 40px 20px;
+  margin-top: -80px;
+ 
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-logo h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.footer-links {
+  display: flex;
+  gap: 70px;
+}
+.footer-links h4 {
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+.footer-links ul {
+  list-style: none;
+ 
+}
+.footer-links ul li {
+  margin: 5px 0;
+}
+.footer-links ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+.subscribe-box {
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+}
+
+.subscribe-box input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #454343;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  background-color:#464848;
+  border-radius: 25px;
+  color: white;
+}
+
+.subscribe-box .telegram-btn {
+  background: #464848; /* Telegram blue */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  margin-left: -80px;
+  
+}
+
+.subscribe-box .telegram-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+
+
+
+
+

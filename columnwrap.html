@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="columnwrap.css">
+</head>
+<body>
+    <h2>Column Wrapping</h2>
+    <div class="container mt-5">
+    <div class="row">
+        <div class="col-5 box">column 1</div>
+        <div class="col-3 box">column 2</div>
+        <div class="col-6 box">if more than 12 columns are placed withon single roweach group of extra columns will, as one unit, wrap onto a new line. </div>
+        <div class="col-4 box">12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+        </div>
+
+    </div>
+
+    <h2>Column Break w-100</h2>
+    <div class="container mt-5">
+        <div class="row text-center">
+            <div class=" box1 col-6 bg-success text-black p-3">column1 </div>
+            <div  class=" box1 col-6 bg-primary text-black p-3">column2</div>
+            <div class=" box1 w-100"></div>
+            <div class=" box1 col-6 bg-danger text-black ">column3</div>
+            <div class=" box1 col-6 bg-warning text-black ">column4</div>
+
+        </div>
+
+    </div>
+    <br>
+
+    <h2>Order Class</h2>
+    <div class="container mt-4">
+        <div class="row text-center">
+            <div class="col bg-danger text-black p-3 order-2" > first in html ,visually it is second</div>
+            <div class="col bg-primary text-black p-3 order-1" > first in html ,visually it is one</div>
+            <div class="col bg-success text-black p-3 order-3" > first in html, visually it is third</div>
+
+        </div>
+
+    </div>
+    <br>
+
+    <h2>Responsive Re-ordering</h2>
+    <div class="container">
+    <div class="row">
+        <div class="col order-md-2 bg-danger p-3 order-last">Column A</div>
+        <div class="col  order-md-3 bg-warning p-3 ">Column B</div>
+        <div class="col order-md-1 bg-success p-3 order-first">Column C</div>
+</div>
+    </div>
+    
+</body>
+</html>

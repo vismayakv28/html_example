@@ -1,0 +1,17 @@
+.label{
+    margin-top: 2rem;
+    margin-bottom:.5rem ;
+    font-weight: bolder;
+    display: grid;
+  
+
+}
+.grids{
+    
+    background-color: bisque;
+    color: black;
+    text-align: center;
+    border-radius: 5rem;
+   
+   
+}
